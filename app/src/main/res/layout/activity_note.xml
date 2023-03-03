@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noteActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <EditText
+            android:id="@+id/newNotetitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter your note titile"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </EditText>
+
+    <EditText
+        android:id="@+id/newNotetext"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Enter note here"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"></EditText>
+</LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/savenote"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_save_24"
+        app:maxImageSize="50dp">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>
