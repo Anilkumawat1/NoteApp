@@ -1,2 +1,3 @@
 # NoteApp
-The application allows users to create, edit, and delete notes that are stored in Firebase's Cloud Firestore database. Users can also categorize their notes into different groups for better organization.  The application has a user-friendly interface that allows users to quickly add and access notes. 
+The application allows users to create, edit, and delete notes that are stored in Firebase's Cloud Firestore database. Users can also categorize their notes into different groups for better organization.  The application has a user-friendly interface that allows users to quickly add and access notes. Firebase's authentication service is used to provide secure access to the application. Users are required to sign in using their Email accounts before they can access the notes.
+Overall, your note-taking application provides users with a convenient and secure way to create and organize their notes using the Android platform and Firebase backend.
